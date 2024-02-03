@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zebra Striped Table</title>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #000;
+    }
+    th {
+        background-color: #670ad1;
+    }
+    tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+    tr:nth-child(odd) {
+        background-color: #8e8e77;
+    }
+    thead {
+        color:#ffffff;
+    }
+    td:first-child {
+        border-right: 1px solid #000;
+    }
+</style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Josh</td>
+      <td>Jibbings</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>Nancy</td>
+      <td>Oilion</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>Ben</td>
+      <td>Anderson</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>Cyndi Vasquez</td>
+      <td>cyndi@murach.com</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Tom</td>
+      <td>Rickler</td>
+      <td>45</td>
+    </tr>
+    <tr>
+    </tbody>
+</table>
+
+</body>
+</html>
